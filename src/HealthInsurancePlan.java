@@ -9,7 +9,6 @@ public class HealthInsurancePlan {
         this.coverage = coverage;
     }
 
-    // Don't worry about the below code and also the InsuranceBrand class
     private InsuranceBrand offeredBy;
 
     public InsuranceBrand getOfferedBy() {
