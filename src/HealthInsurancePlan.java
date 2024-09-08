@@ -1,5 +1,6 @@
-public class HealthInsurancePlan {
+public abstract class HealthInsurancePlan {
     private double coverage;
+    public abstract double computeMonthlyPremium(double salary);
 
     public double getCoverage() {
         return coverage;
